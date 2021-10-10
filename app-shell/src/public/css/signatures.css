@@ -1,0 +1,3016 @@
+/*/
+     Styles specific to signatures search shared controls(simple/advanced/signallist/sigdashboard)
+*/
+
+.sig_search_confidence img {
+    width: 15px;
+}
+
+.sig-search-control-buttons{
+    margin-top: 10px;
+}
+
+/*Add Ref POR-4506*/
+.sig-search-control-radio-buttons-padding{
+    padding-left: 30px;
+}
+
+/*
+  Styles specific to signatures search (simple/advanced)
+*/
+.sig-simple-search-query-placeholder {
+    padding-left: 10px;
+    font: 14px normal #777777;
+    border: 1px solid #BDC2C7;
+    background: #FFFFFF;
+    height:80px;
+    /*width: 1299px;*/
+    width:90%;
+    resize: none;
+}
+
+#dmi_sig_advancedsearch_filteringcriteria{
+    margin-top: 50px;
+    height: 180px;
+}
+
+.dmi-sig-autocomplete-fixed-height {
+    padding: 1px;
+    max-height: 200px;
+    overflow: auto;
+    border: ridge;
+    background-color:#E8E8E8;
+}
+
+.dmi-sig-placeholder {
+    padding-left: 10px;
+    /*font: 14px normal #700300;*/
+    font: 14px normal #777777;
+    border: 1px solid #BDC2C7;
+    background: #FFFFFF;
+    width:450px;
+    height:30px;
+}
+
+.dmi-sig-search-placeholder {
+    padding-left: 10px;
+    font: 14px normal #777777;
+    border: 1px solid #BDC2C7;
+    background: #FFFFFF;
+    width:500px;
+    height:35px;
+    resize: none;
+}
+
+.sig-font-italic {
+    font-style: italic;
+    word-wrap:normal;
+}
+
+.sig-search-criteria-label1{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.sig-search-criteria-label2{
+    font-size: 11px;
+}
+
+.sig-search-criteria-label3{
+    margin-left:5px;
+}
+
+.dmi-sig-query-container {
+    position: static;
+    border: 1px solid #BDC2C7;
+    height: 30px;
+    font: 14px normal #777777;
+    background: #FFFFFF;
+}
+
+.sig-filter-header{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-filter-header-margin{
+    padding-left:6px !important;
+}
+
+.sig-query-containers-header-col1{
+   position:absolute;
+   margin-left: 5px;
+   /*padding: 0;*/
+   font-size: 14px;
+   font-style:normal;
+   /*font-weight:normal;*/
+   color: #4c5154;
+}
+
+.sig-query-containers-header-col2{
+    position:absolute;
+    margin-left: 160px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-query-containers-header-col3 {
+    position:absolute;
+    margin-left: 290px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-query-containers-header-col4 {
+    position:absolute;
+    margin-left: 415px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-query-containers-header-col3p {
+    position:absolute;
+    margin-left: 315px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-query-containers-header-col4p {
+    position:absolute;
+    margin-left: 445px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.sig-query-containers-header-col5 {
+    position:absolute;
+    margin-left: 605px;
+    padding: 0;
+    font-size: 14px;
+    font-style:normal;
+    /*font-weight:normal;*/
+    color: #4c5154;
+}
+
+.dmi-sig-slider {
+    display: inline-block;
+    width: 200px;
+    height: 0.5em;
+    border-color: #c0c0c0;
+    border-color: #c0c0c0;
+    background-color:#cccccc; /*lightgray*/
+    /*margin-left: 15px;*/
+    margin-left: 10px;
+}
+
+.dmi-sig-slider-sigadvancedsearch {
+    margin-left: 5px;
+}
+
+.dmi-sig-slider-fixed-label {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.dmi-sig-slider-fixed-label-sigadvancedsearch {
+    margin-left: 5px !important;
+}
+
+.dmi-sig-slider-label {
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.dmi-sig-slider-low-label {
+    margin-left: 10px;
+}
+
+.dmi-sig-slider-low-label-numeric {
+    margin-left: 25px;
+}
+
+.dmi-sig-slider-high-label {
+    margin-left: 100px;
+}
+
+.dmi-sig-slider-high-label-numeric {
+    margin-left: 160px;
+}
+
+.dmi-sig-slider-handle {
+    /*width: 0.5em !important;
+    height: 1em;
+    background: #0971CE;*/
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:#0971CE;
+}
+
+.dmi-sig-slider-range-filler {
+    background:#7ea8cd; /*blue*/
+}
+
+.dmi-sig-datepicker-wrapper {
+    display:inline-block;
+    width: 150px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.dmi-sig-datepicker-wrapper > .date {
+    position: absolute;
+    margin-top: -20px;
+}
+
+/*.dmi-sig-slider-padding{
+    padding-left: 1px;
+}*/
+
+.sig-horizontal-line{
+    width:100%;
+    height:1px;
+    background:#bdc2c7;
+}
+
+/*NOTE: Need to see how to use Inheritance here*/
+.sig-fcode{
+    width: 60px;
+    height: 18px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size:small;
+    text-align:center;
+    padding: 0px;
+    font-weight:bold;
+}
+
+.sig-fcode-person {
+    width: 70px;
+}
+
+.sig-fcode-blacklisted,
+.sig-fcode-Blacklisted{
+    background-color: black;
+}
+
+.sig-fcode-unedited,
+.sig-fcode-Unedited {
+    background-color: #bdc2c7;
+}
+
+.sig-fcode-verified,
+.sig-fcode-Verified{
+    background-color: #00b5b1;
+}
+
+.sig-fcode-edited,
+.sig-fcode-Edited{
+    background-color: buttonface;
+    color: #00b5b1;
+}
+
+.sig-btn {
+    border: none;
+    padding: 0px;
+    background: none;
+}
+
+.sig-btn-record-status{
+    width: 18px;
+    height: 18px;
+    background-color: #4fc1e9;
+}
+
+.sig-signal-btn-events{
+    border: none;
+    padding: 0px;
+    width: 25px;
+    height: 15px;
+    border-radius: 2px;
+    background-color: #4fc1e9;
+    font-size:x-small;
+    color:white;
+    text-align:center;
+}
+
+.sig-mouse-over{
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: black;
+    font-size:medium;
+    color:white;
+}
+.sigEyeButton {
+     text-transform: none !important;
+ }
+
+.sigEyeButton > span.dmi-icon-eye-open
+  {
+       float: left;
+       margin-right: 6px;
+       margin-top: 7px;
+       cursor: pointer;
+       *cursor: hand;
+}
+
+/* closed eye is a bit smaller so needs more margin at top to keep in same place       */
+.sigEyeButton > span.dmi-icon-eye-closed
+  {
+       float: left;
+       margin-right: 6px;
+       margin-top: 10px;
+       cursor: pointer;
+       *cursor: hand;
+}
+/*
+  End of Styles specific to signatures search (simple/advanced)
+*/
+
+/*
+ *
+  Styles specific to sigdetails
+ *
+ *
+*/
+.sig_details_button2 {
+    border-radius: 5px;
+    border-color: pink;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    background-color: white;
+}
+
+.sig_details_section_title {
+    display:inline-block;
+    margin-bottom: 5px;
+    color: #0971ce;
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+}
+
+.sig_details_symbology_button {
+    /*background-color: DeepSkyBlue;*/
+    /*background-color: powderblue;*/
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px;
+    background-color: lightblue;
+    border-color: pink;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.sig_details_property {
+    width: 100%;
+    clear: both;
+    margin-left: 5px;
+}
+
+.sig_details_property_table {
+    /* margin-left: 100px; */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.sig_details_property_table tr.nth-row {
+    background-color: #f0f0f0;
+}
+
+.sig_details_property_table.sig_details_property_table_wide {
+    width: 100%;
+}
+
+.sig_details_property_table td.sig_details_property_value {
+    color: #333;
+}
+
+.sig_details_property_table td.sig_details_property_confidence {
+    text-align: center;
+    width: 24px;
+    padding-top: 3px;
+}
+
+.sig_details_property_table td.sig_details_property_confidence img {
+    width: 13px;
+}
+
+.sig_details_property_table td.sig_details_property_link {
+    cursor: pointer;
+}
+
+.sig_details_property_table td.sig_details_property_link img {
+    height: 13px;
+}
+
+.sig_details_property_table td.sig_details_property_value.sig_details_checkbox_value {
+    width: 20px;
+}
+
+.sig_details_property_table th.sig_details_count_value {
+    text-align: right;
+}
+
+.sig_details_property_table td.sig_details_property_value.sig_details_count_value {
+    width: 10%;
+    text-align: right;
+}
+
+#sig_details_crawledurls_property {
+    margin-top: 100px;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table {
+    table-layout: fixed;
+    margin-top: 80px;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table th.sig_details_count_value {
+    transform: rotate(-90deg);
+    transform-origin: 40% 40%;
+    white-space: nowrap;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table th.sig_details_checkbox_value {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table th.sig_details_checkbox_value {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table td.sig_details_url_value {
+    word-break: break-all;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table td.sig_details_count_value {
+    text-align: center;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table td.sig_details_count_value a {
+    cursor: pointer;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table .sig_details_property_confidence {
+    width: 24px;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table .sig_details_checkbox_value {
+    width: 20px;
+}
+
+#sig_details_crawledurls_values.sig_details_property_table .sig_details_count_value {
+    width: 30px;
+}
+
+.sig_details_text {
+    /*background-color: white;*/
+}
+
+#sig_details-pages,
+#sig_details_author_pages {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#sig_details-page-1,
+#sig_details_author_page-1 {
+    display: table-cell;
+    width: 25%;
+}
+
+#sig_details-page-2,
+#sig_details_author_page-2 {
+    display: table-cell;
+    width: 25%;
+}
+
+#sig_details-page-3,
+#sig_details_author_page-3 {
+    display: table-cell;
+    width: 25%;
+}
+
+#sig_details-page-4,
+sig_details_author_page-4 {
+    display: table-cell;
+    width: 25%;
+}
+
+#sig_details_fcode {
+    margin-right: 10px;
+}
+
+#sig_details_snaphot_header_buttons {
+    display:inline;
+    margin-left: 20px;
+}
+
+.sig_details_snapshot_properties_table {
+}
+
+.sig_details_snapshot_properties_table_cell {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.sig_details_snapshot_property_validate {
+    width: 10px;
+    hegiht: 10px;
+}
+
+#sig_details_business {
+    margin-top: 20px;
+}
+
+#sig_details_footprint_leftside {
+    display: table-cell;
+    /*width: 75%; when there nwere articles */
+    /*width: 66%;*/
+    width: 100%;
+}
+
+#sig_details_footprint_rightside {
+    width: 400px;
+    vertical-align: top;
+}
+/* #sig_details_newsworthiness_article_rightside, */
+#sig_details_author_topics_article_rightside,
+#sig_details_author_history_article_rightside{
+    display: table-cell;
+    width: 400px;
+    vertical-align: top;
+}
+
+#sig_details_author_history_article_rightside,
+#sig_details_author_topics_article_rightside {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sig_details_symbology_buttons_results {
+    display: table;
+}
+
+#sig_details_symbology_leftside {
+    display: table-cell;
+    width: 20%;
+}
+
+#sig_details_symbology_rightside {
+    display: table-cell;
+    width: 80%;
+}
+
+
+#sig_details_footprint_keywords_table {
+    background: white;
+
+}
+
+
+#sig_details_footprint_keywords_cloud,
+#sig_details_authorfootprint_keywords_cloud {
+    display: none;
+}
+
+#sig_details_footprint_keywords_cloud_modal .modal-content {
+    width: 850px;
+    height: 650px;
+}
+
+#sig_details_footprint_keywords_cloud_modal .modal-dialog {
+  width: 850px;
+}
+
+#sig_details_footprint_keywords_table {
+    width:95%;
+}
+
+.sig_details_footprint_keyword_text {
+    color: cornflowerblue;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sig_details_footprint_keyword_weight {
+    text-align: right;
+}
+
+#sig_details_footprint_headlines_article {
+    display: table;
+/* float: left; */
+    width: 99%;
+    background-color: white;
+    height: 99%;
+    max-height: 1000px;
+}
+
+#sig_details_footprint_headlines_article_row,
+#sig_details_authorfootprint_headlines_article_row {
+    display: table-row;
+    max-height: 1000px;
+    padding: 15px;
+}
+
+#sig_details_footprint_article_rightside {
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+#sig_details_footprint_article_text {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+}
+
+
+#sig_details_footprint_articles_keywords {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#sig_details_footprint_articles_footprint {
+    margin-left:20px;
+}
+
+#sig_details_footprint_article_keywords {
+    display: table;
+    margin: 5px;
+    width: 100%;
+}
+
+#sig_details_newsworthiness_articles {
+    /*margin: 5px;*/
+}
+
+#sig_details_newsworthiness_articles_header {
+    display: table;
+}
+
+#sig_details_newsworthiness_articles_header_leftside {
+    display: table-cell;
+    width: 50%;
+}
+
+#sig_details_newsworthiness_articles_header_rightside {
+    display: table-cell;
+    width: 50%;
+}
+
+#sig_details_newsworthiness_articles_cannedsearch_dropdown {
+    display: inline-block;
+}
+
+
+#sig_details_newsworthiness_articles_currentcannedsearch {
+    display:none;
+}
+
+#sig_details_newsworthiness_headlines {
+    overflow: auto;
+    max-height: 800px;
+    /*padding-left: 15px; */
+    padding-right: 12px;
+}
+
+#sig_details_newsworthiness_headlines_table {
+    display: table;
+}
+
+#sig_details_newsworthiness_headline_row {
+    display: table-row;
+    padding: 15px;
+}
+
+.sig_details_newsworthiness_headline_title {
+    display: table-cell;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.sig_details_newsworthiness_headline_source {
+    display: table-cell;
+    color: darkgrey;
+    font-size: smaller;
+}
+
+.sig_details_newsworthiness_headline_snippet {
+    display: table-cell;
+}
+
+.sig_details_newsworthiness_headline_space {
+    margin-bottom: 10px;
+}
+
+#sig_details_newsworthiness_article_text {
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sig_details_newsworthiness_article_title {
+    font-size: larger;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sig_details_newsworthiness_article_source {
+    font-size: smaller;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.sig_details_newsworthiness_article_text_part {
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+.sig_details_newsworthiness_article_copyright {
+}
+
+
+
+
+
+#sig_details_footprint_header_id_buttons,
+#sig_details_author_topics_header_id_buttons {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#sig_details_footprint_header_id,
+#sig_details_author_topics_header_id {
+    display: inline;
+    margin-right: 20px;
+}
+
+#sig_details_footprint_name,
+#sig_details_author_topics_name {
+    display: inline;
+    margin: 20px;
+}
+
+#sig_details_footprint_reject_select_reason {
+/* display: inline; */
+    margin-bottom: 5px !important;
+}
+
+#sig_details_footprint_reject_reasons {
+    /* display: inline; */
+    margin-bottom: 15px !important;
+}
+
+#sig_details_footprint_reject_reason {
+
+}
+.sig_details_text {
+/* display: inline; */
+    margin-bottom: 5px !important;
+}
+
+.specifyReasonText {
+    display: inline;
+    padding-left: 10px;
+    /*font: 14px normal #700300;*/
+    font: 14px normal #777777;
+    border: 1px solid #BDC2C7;
+    background: #FFFFFF;
+    width: 100%;
+    height:30px;
+}
+
+
+#sig_details_footprint_created {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#sig_details_footprint_lastupdated {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#sig_details_footprint_headlines {
+    overflow: auto;
+    max-height: 800px;
+    padding: 15px;
+}
+
+#sig_details_footprint_headlines_table {
+    display: table;
+    width: 100%;
+    min-height: 50px;
+}
+
+#sig_details_footprint_headline_row {
+    display: table-row;
+}
+
+.sig_details_footprint_headline_title {
+  font-size: larger;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.sig_details_no_articles_found {
+    color: cornflowerblue;
+}
+
+.sig_details_footprint_headline_source {
+    display: table-cell;
+    color: darkgrey;
+    font-size: smaller;
+}
+
+.sig_details_footprint_headline_snippet {
+    display: table-cell;
+}
+
+.sig_details_footprint_headline_space {
+    margin-bottom: 10px;
+}
+
+#sig_details_footprint_article {
+    width:100%;
+    /*height: 100%;*/
+}
+
+#sig_details_footprint_article_text {
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sig_details_footprint_article_copyright {
+  font-size: smaller;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    color: #777;
+    display: inline-block;
+}
+
+#sig_details_article .modal-dialog {
+    width: 90%;
+    /*left: 5%; */
+}
+
+#sig_details_article .modal-content {
+    /*min-width: 90%;*/
+    /*left: 5%; */
+}
+
+#sig_details_article_next {
+    float: right;
+}
+
+#sig_details_article_text {
+    width:100%;
+    height: 100%;
+    overflow: auto;
+    max-height: 600px;
+}
+
+.sig_details_article_title {
+    font-size: larger;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: inline-block;;
+}
+
+.sig_details_article_source {
+    font-size: smaller;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.sig_details_article_text_part {
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+.sig_details_article_copyright {
+}
+
+.sig_details_article_metadata_button {
+    display: inline-block;
+}
+
+.sig_details_inline {
+    display: inline;
+}
+
+.sig_details_inline_block {
+    display: inline-block !important;
+}
+
+/*.sig_details_collapse_button,*/
+.sig_details_collapse_button {
+    background-image: url('/public/img/dmi-icons.png');
+    background-position: -88px -22px;
+    width: 22px;
+    height: 22px !important;
+    display:inline;
+    float: right;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.sig_details_header_collapse_button:hover {
+}
+
+/*.sig_details_collapse_button .active,*/
+.sig_details_collapse_button.active,
+.sig_details_collapse_button:active {
+    background-image: url('/public/img/dmi-icons.png') !important;
+    background-position: -220px -22px;
+}
+
+.sig_details_header_collapse_button {
+    display:inline-block;
+    /*
+    color: #ffffff;
+    background-color: #bdc2c7 !important;
+    */
+    color: #3d474c;
+    background-color: #e4e4e4 !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-color: #bdc2c7;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#sig_details_expand_header_collapse_button {
+    display:inline-block;
+    color: #0971ce;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    height: 28px;
+}
+
+.sig_details_blue_text {
+    color: #0971ce;
+}
+
+/*.sig_details_collapse_button,*/
+.sig_details_header_collapse_button:hover {
+    background-color: #e4e4e4 !important;
+}
+
+/*
+.sig_details_collapse_button.active,
+.sig_details_collapse_button:active,
+*/
+.sig_details_header_collapse_button.active,
+.sig_details_header_collapse_button:active {
+    background-color: #f5f5f5 !important;
+}
+
+.sig_details_max_button {
+    background-image: url('/public/img/fullscreen.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 22px !important;
+    display:inline;
+    float: right;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.sig_details_footprint_reject_specify_reason {
+    margin-top: 15px;
+}
+
+.sig_details_inline_block {
+    display:inline-block;
+}
+
+.sig_details_button {
+    display:inline-block;
+}
+
+.sig_details_small_button {
+    display:inline-block;
+    height:18px !important;
+    color: #ffffff;
+    background-color: #BDC2C7;
+    font-size: 12px;
+    /*
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    */
+    padding-top: 0px;
+    padding-bottom: 2px;
+    text-transform: none !important;
+    vertical-align: middle;
+
+}
+
+.sig_details_small_button:hover {
+    background-color: #7b8388;
+}
+
+.sig_details_small_button:active,
+.sig_details_small_button.active{
+    background-color: #0971ce;
+}
+
+
+.sig_details_float_left  {
+    display:inline;
+    float: left;
+}
+
+#sig_details_header_line1 {
+}
+
+#sig_details_line1_right {
+    float: right;
+}
+
+.sig_details_header_line1_table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.sig_details_td20 {
+    width: 20%;
+}
+
+.sig_details_td30 {
+    width: 30%;
+}
+
+.sig_details_td50 {
+    width: 50%;
+}
+
+#sig_details_header {
+    background-color: #f3f2f4;
+    padding-bottom: 20px;
+}
+
+.sig_details_section {
+    /*margin-top: 20px;*/
+    /* 20150220 - removed
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: #bdc2c7;
+    */
+    min-height: 25px;
+    background-color: #e9e9eb;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.sig_details_section.executives,
+.sig_details_section.footprints,
+.sig_details_section.snapshot,
+.sig_details_section.profiles {
+    margin-top: 10px;
+}
+
+
+#sig_details_fcode_signal {
+}
+
+#sig_details_fcode {
+    display: inline-block;
+    color: white;
+    background-color: #bdc2c7;
+    min-width: 60px;
+    text-align: center;
+    height: 28px;
+    margin-left: 30px;
+/*  margin-top: 9px; */
+    vertical-align: text-bottom;
+}
+
+.sig_details_verticalalign_down4 {
+    vertical-align: -4px;
+}
+
+.sig_details_header_signal {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.sig_details_header_signal span.badge {
+    background-color:#0971CE;
+}
+
+.sig_details_fcode_verified {
+    background-color: #00b5b1 !important;
+}
+
+.sig_details_fcode_unedited {
+    background-color: #4fc1e9 !important;
+}
+
+.sig_details_fcode_blacklisted {
+    background-color: black !important;
+}
+
+.sig_details_btn_show_detached {
+    text-transform: none !important;
+    /* margin-right: 10px; */
+    float: right;
+}
+.sig_details_footprint_verified {
+    background-color: #ffffff !important;
+}
+
+.sig_details_footprint_unverified {
+    background-color: #f2f2f2 !important;
+}
+.sig_details_footprint_detached {
+    background-color: #a9a9a9 !important;
+}
+
+
+#sig_details_ids_modal td {
+    padding: 5px;
+}
+
+#sig_details_snapshot .sig_details_button {
+    display:inline;
+}
+
+#sig_details_snapshot_collapse,
+#sig_details_author_snapshot_collapse {
+  /* margin-top: 20px; */
+}
+
+#sig_details_snapshot_symbology_details,
+#sig_details_author_snapshot_symbology_details {
+    display: inline-block;
+}
+
+#sig_details_snapshot_line1_right,
+#sig_details_author_snapshot_line1_right {
+    display: inline;
+    float: right;
+    max-height:30px;
+}
+
+.sig_details_snapshot_property_confidence img {
+    width: 10px;
+    cursor: pointer;
+}
+
+#sig_details_snapshot_confidence_description {
+    display: inline-block;
+}
+
+#sig_details_snapshot_confidence_biography {
+    display: inline-block;
+}
+
+#sig_details_snapshot_more_providers {
+    float: right;
+}
+
+.sig_details_pointer {
+    cursor: pointer;
+}
+
+#sig_details_snapshot_name_value {
+    cursor: pointer;
+}
+
+#sig_details_entity_name_modal td {
+    padding: 5px;
+}
+
+.sig_details_entity_name_confidence img {
+    width: 20px;
+}
+
+#sig_details_business h2 {
+}
+
+#sig_details_header_line2 {
+    border-style: none;
+}
+
+.sig_details_article_highlight {
+    background-color: yellow;
+}
+
+.sig_details_article_highlight_keyword {
+    background-color: orange;
+}
+
+.sig_details_provider_table  {
+    width: 100%;
+    background-color: #f0f0f0;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+
+}
+
+.sig_details_provider_table_top_row{
+
+   text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border-spacing: 12px;
+    height: 38px;
+}
+
+.sig_details_provider_table_td {
+
+     display: table-cell;
+     min-width: 60px;
+    text-align: left;
+    height: 50px;
+    vertical-align: middle;
+    padding: 10px;
+    border-spacing: 12px;
+    height: 28px;
+}
+
+.sig_details_provider_table_th {
+    text-align: left;
+
+}
+
+#sig_details_keywords_header,
+#sig_details_author_history_sources_label,
+#sig_details_topics_topics_header_label {
+    display: inline-block;
+    margin-top: 3px;
+}
+#sig_details_articles_header{
+    margin-top: 15px;
+    display: block;
+}
+#sig_details_footprint_articles_buttons{
+    display: inline-block;
+    border-right:1px solid #bdc2c7;
+    border-left:1px solid #bdc2c7;
+    border-top:1px solid #bdc2c7;
+}
+#sig_details_footprint_lastupdated_value, #sig_details_footprint_created_value {
+        font-weight: normal;
+}
+
+#sig_details_newsworthiness_newscode_label {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.sig_details_section_header {
+    /* margin-left: 15px; */
+    margin-bottom: 15px;
+    /* border-top: 1px solid #bdc2c7;
+    border-bottom: 1px solid #fbf7f9; */
+}
+
+.sig_details_collapse_div {
+    margin-left: 15px;
+}
+
+#sig_details {
+    background-color: #e9e9eb;
+    margin-top: 56px;
+}
+
+.sig_details_line_height {
+    min-height: 20px;
+}
+
+#sig_details_newsworthiness_article {
+    display: table;
+    width: 100%;
+    /*background-color: white;*/
+    margin: 5px;
+    /*height: 100%;*/
+}
+
+#sig_details_newsworthiness_article_leftside {
+    display: table-cell;
+    /*
+    width: 50%;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+    */
+
+}
+
+#sig_details_newsworthiness_article_leftside .tab-content{
+    background-color: white;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#sig_details_newsworthiness_article .nav-tabs {
+    margin-bottom: 0px;
+}
+
+#sig_details_newsworthiness_headlines_general,
+#sig_details_newsworthiness_headlines_hlp,
+#sig_details_newsworthiness_headlines_cannedsearch {
+    overflow: auto;
+    max-height: 750px;
+}
+
+#sig_details_footprint_article_leftside {
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+    /* margin-right: 15px; */
+}
+
+#sig_details_newsworthiness_more_headlines_general a,
+#sig_details_newsworthiness_more_headlines_hlp a,
+#sig_details_newsworthiness_more_headlines_cannedsearch a {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+#sig_details_add_fcode_fcode_label {
+    font-weight: bold;
+}
+
+.sig_details_affiliation_roletype_buttons .radio-inline:nth-child(n+1){
+  margin-left: 10px;
+}
+
+.sig_details_newsworthy_switch .switch-animate label[for="sig_details_isnewsworthy"],
+.sig_details_newsworthy_switch .switch-animate label[for="sig_details_isnewsworthy"]:hover {
+  top:4px;
+}
+
+#sig_details_symbology_name_lookup_modal .modal-lg{
+    width: 1024px;
+}
+
+.sig_details_articles_button {
+    display: inline;
+    float: left;
+    margin: 0px  !important ;
+    background-color: white;
+    text-transform: none !important;
+}
+
+.sig_details_footprint_articles_footprint_count span{
+    color: #0971ce;
+    background-color: #ffff00;
+}
+.sig_details_footprint_articles_keywords_count span{
+    color: #0971ce;
+    background-color: #FFA500;
+}
+
+#sig_details_newsworthiness_headlines_general {
+    padding: 15px;
+}
+
+#sig_details_footprint_keywords_buttons,
+#sig_details_authorfootprint_keywords_buttons{
+    float: right;
+}
+
+#sig_details_footprint_keywords_data,
+#sig_details_author_topics_topis_data,
+#sig_details_author_history_sources_data {
+    margin-bottom: 15px;
+}
+
+.sig_details_signatures_id {
+    font-weight: normal;
+    font-size: 18px;
+    color: #4c5154;
+}
+
+#sig_details_snapshot_header_collapse_button {
+    margin-left: 0px;
+}
+
+.sig_details_table_affiliations,
+.sig_details_table_namesaliases,
+.sig_details_table_authorsources {
+}
+
+.sig_details_table_affiliations > thead > tr > th,
+.sig_details_table_namesaliases > thead > tr > th,
+.sig_details_table_authorsources > thead > tr > th {
+  padding: 0 10px;
+}
+.sig_details_table_affiliations > tbody > tr > td,
+.sig_details_table_namesaliases > tbody > tr > td,
+.sig_details_table_authorsources > tbody > tr > td {
+  padding: 0px 10px;
+}
+
+#sig_details_affiliations {
+    margin-bottom: 10px;
+}
+
+.sig_details_affiliations_roletype_confidence img,
+.sig_details_namesaliases_nametype_confidence img,
+.sig_details_authorsources_type_confidence img,
+.sig_sigdetails_entities_confidence img{
+    width: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sig_details_affiliations_roletype_value,
+.sig_details_namesaliases_nametype_value,
+.sig_details_authoursources_type_value {
+    min-width: 55px;
+}
+
+#sig_details_footprint_dailycountsgraph_header,
+#sig_details_newsworthiness_dailycountsgraph_header {
+    display: inline-block;
+}
+
+#sig_details_footprint_dailycountsgraph_slider,
+#sig_details_newsworthiness_dailycountsgraph_slider {
+    background-color: #ffffff;
+    border: 1px solid #bdc2c7;
+    margin-right: 15px;
+}
+
+#sig_details_footprint_dailycountsgraph,
+#sig_details_newsworthiness_dailycountsgraph{
+    margin-left: 5px;
+}
+
+#sig_details_footprint_slider_container,
+#sig_details_newsworthiness_slider_container {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+#sig_details_footprint_dailycountsgraph_key_line,
+#sig_details_newsworthiness_dailycountsgraph_key_line {
+    height:60px;
+}
+
+#sig_details_footprint_modal_sliders_container {
+    height:54px;
+}
+
+.sig_details_dailycountsgraph_key_blue_square {
+    background-color: blue;
+}
+
+.sig_details_dailycountsgraph_key_red_square {
+    background-color: red;
+}
+
+.sig_details_dailycountsgraph_key_blue_square,
+.sig_details_dailycountsgraph_key_red_square{
+   display: inline-block;
+   width: 20px;
+   height: 15px;
+   margin-left: 5px;
+   vertical-align: text-top;
+}
+
+.sig_details_footprint_dailycountsgraph_key_blue > span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.sig_details_footprint_dailycountsgraph_key_red > span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.sig_details_footprint_dailycountsgraph_key {
+    border: 1px solid #bdc2c7;
+    margin-right: 5px;
+}
+
+#sig_details_newsworthiness_articles_general_editsearch,
+#sig_details_newsworthiness_articles_hlplastyear_editsearch,
+#sig_details_newsworthiness_articles_custom_editsearch,
+.sig_details_newsworthiness_articles_cannedsearch_editsearch {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#sig_details_author_history_article ,
+#sig_details_author_topics_article_topics {
+    display: table;
+    width: 100%;
+    margin: 5px;
+}
+
+#sig_details_author_history_article_leftside,
+#sig_details_author_topics_article_leftside {
+    display: table-cell;
+}
+
+#sig_details_author_history_article_leftside .tab-content,
+#sig_details_author_topics_article_leftside .tab-content{
+    background-color: white;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#sig_details_author_history_article .nav-tabs,
+#sig_details_author_topics_article_topics .nav-tabs {
+    margin-bottom: 0px;
+}
+
+
+#sig_details_author_history_headlines_lastyear,
+#sig_details_author_history_headlines_last6months,
+#sig_details_author_history_headlines_lastmonth,
+#sig_details_author_history_headlines_custom,
+#sig_details_author_topics_headlines_name,
+#sig_details_author_topics_headlines_topic{
+    overflow: auto;
+    max-height: 750px;
+    min-height: 100px;
+}
+
+#sig_details_author_history_sources_data,
+#sig_details_author_topics_topis_data {
+    background-color: white;
+}
+
+.sig_details_bar{
+    background-image: url("/public/img/bar.png");
+    height: 20px;
+    width: 100px;
+}
+
+.sig_details_footprint_articles_footprint_count span{
+    color: #0971ce;
+    background-color: #ffff00;
+}
+.sig_details_footprint_articles_keywords_count span{
+    color: #0971ce;
+    background-color: #FFA500;
+}
+
+#sig_details_authorfootprint_headlines {
+    overflow: auto;
+    max-height: 800px;
+    /*padding-left: 15px; */
+    padding-right: 12px;
+    min-height: 100px;
+}
+
+#sig_details_authorfootprint_article_leftside {
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#sig_details_authorfootprint_article_rightside {
+    display: table-cell;
+    width: 50%;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.sig_details_author_topics_topic_name {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+#sig_details_footprint_keywords_buttons {
+    float: right;
+}
+
+#sig_details_footprint_keywords_data {
+    margin-bottom: 15px;
+}
+
+#sig_details_footprint_articles_buttons{
+    display: inline-block;
+    border-right:1px solid #bdc2c7;
+    border-left:1px solid #bdc2c7;
+    border-top:1px solid #bdc2c7;
+}
+
+.sig_details_li {
+    cursor: pointer;
+}
+
+.sig_details_authorsources_name_value {
+    cursor: pointer;
+    color: #0971ce;
+}
+
+.sig_details_publication_detail_popover {
+    max-width: 800px;
+}
+
+.sig_details_authorsources_publication_popover_table {
+
+}
+
+.sig_details_authorsources_publication_popover_table > tbody > tr > td {
+    padding: 0 10px;
+}
+
+.sig_details_authorsources_publication_popover_table > tbody > tr > td:first-child {
+    width: 200px;
+    font-weight: bold;
+}
+
+.sig_details_chart_slider {
+    display: inline-block;
+    width: 150px;
+    height: 0.5em;
+    border-color: #c0c0c0;
+    border-color: #c0c0c0;
+    background-color:#cccccc; /*lightgray*/
+    margin-left: 10px;
+}
+
+#sig_details_edit_search_modal_typedaterange {
+  margin-bottom: 5px;
+}
+
+/*
+ *
+  End of Styles specific to sigdetails
+ *
+ *
+*/
+
+/*
+  Styles specific to sigperson
+*/
+#sigperson_jobroles_table {
+    width: 100%;
+}
+
+#sigperson_jobroles_table td:nth-child(2) {
+    vertical-align: bottom;
+}
+
+#sigperson_jobroles_table .table-dmi {
+    margin-bottom: 0px;
+}
+
+#sigperson_linkedin_photo_table,
+#sigperson_death_gender_table {
+    width: 100%;
+}
+
+#sigperson_linkedin_photo_table > tr > td:first-child
+{
+    width: 30%;
+}
+
+#sigperson_death_gender_table > tr > td:first-child
+{
+    width: 50%;
+}
+
+#sigperson_contactinfo_table > tbody > tr > td {
+    vertical-align: top;
+}
+
+.sigperson_edited_highlight {
+    color: blue  !important;
+}
+
+.sigperson_verified_highlight {
+    color: green;
+}
+
+.sigperson_edited_highlight_background {
+    background-color: lightblue  !important;
+}
+
+.sigperson_verified_highlight_background {
+    background-color: lightgreen;
+}
+
+#sigperson_author_sources_table > tbody > tr > td:nth-child(3) > div > *,
+#sigperson_author_sources_table > tbody > tr > td:nth-child(3) > div {
+    display: inline-block;
+}
+#sigperson_author_sources_table > tbody > tr > td:nth-child(3) > * {
+    display: inline-block;
+}
+
+/*
+  Styles specific to signallist
+*/
+
+.sig-signallist-container {
+    margin-top: 10px;
+    height:80px;
+}
+
+.sig-signallist-query-containers-child-header1 {
+    margin-left: 315px !important
+}
+
+.sig-signallist-query-containers-child-header2 {
+    margin-left: 445px !important
+}
+
+.sig-signallist-query-containers-child-header3 {
+    margin-left: 670px !important
+}
+
+.dmi-sig-slider-signal-list {
+    width: 190px;
+    margin-left: 3px;
+}
+
+.dmi-sig-slider-fixed-label-signal-list {
+    margin-left: 3px !important;
+}
+
+/*
+  End of Styles specific to signallist
+*/
+
+
+/*
+  Styles specific to sigsignaldetails
+*/
+
+#sig_signaldetails_body {
+    background-color: #e9e9eb;
+    margin-top: 46px;
+}
+
+#sig_signaldetails_body_header {
+    background-color: #f3f2f4;
+    padding-bottom: 20px;
+}
+
+#sig_signaldetails_totalarticles {
+    margin-bottom: 10px;
+}
+
+.sig_signaldetails_totalarticles_count {
+    font-weight:bold;
+}
+
+#sig_signaldetails_story_headlines {
+    background-color: white;
+    border-color: #b2c2c7;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto;
+    max-height: 750px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sig_details_headline_title {
+    display: table-cell;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.sig_details_headline_source {
+    display: table-cell;
+    color: darkgrey;
+    font-size: smaller;
+}
+
+.sig_details_headline_snippet {
+    display: table-cell;
+}
+
+.sig_details_headline_space {
+    margin-bottom: 10px;
+}
+
+.table-signalsxcsView tr.highlight{
+  background: #F3F2F3;
+  color: #4C5154;
+}
+
+.close-signal-popover-btn {
+  padding-left: 8px;
+}
+
+.signal-popover-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.sig_details_executive_row_in_edit,
+tr.sig_company_row_in_edit td,
+tr.sig_details_executive_row_in_edit td,
+tr.primary_domain_in_edit td {
+    background-color: #FFE5C1 !important;
+}
+
+div.sig_details_executive_row_rejected,
+tr.sig_details_executive_row_rejected td {
+  background-color: #BDC2C7 !important;
+  text-decoration-line: line-through;
+}
+
+div.sig_details_executive_row_new,
+tr.sig_details_executive_row_new td {
+  background-color: #E6FFE6 !important;
+}
+
+tr.external-provider td {
+    background-color: #F3F2F4 !important;
+}
+
+tr.external-provider.editable td {
+    background-color: beige !important;
+}
+
+.sig_details_footprints_table_header_cell {
+    border: 1px solid white;
+    background-color: darkgray;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.sig_details_footprints_table_cell {
+    border: 1px solid lightgray;
+    /* background-color: white; */
+    padding: 5px 5px 5px 5px;
+}
+
+.sig_details_footprints_table_cell.align_center {
+    text-align: center;
+}
+
+.btn_ft_action {
+    background-color: gray;
+    border-radius: 50%;
+    padding-left: 3px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.btn_ft_action_icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.btn_ft_action_icon.approve{
+    background-image: url(../img/dmi-icons-white.png);
+    background-position: 0 -40px;
+}
+
+.btn_ft_action_icon.delete{
+    background-image: url(../img/dmi-icons-white.png);
+    background-position: 114px -19px;
+}
+
+.btn_ft_action_icon.move{
+    background-image: url(../img/glyphicons-halflings-white.png);
+    background-position: 134px -93px;
+    transform: rotateX(180deg);
+}
+
+.sig_details_footprints_collapse {
+    display: inline-block;
+}
+
+.sig_details_footprint_keywords {
+    margin-right: 15px;
+}
+
+.sig_details_footprintSelect:hover {
+    background-color: #ffff00 !important;
+}
+
+.sig_details_footprintSelect.selected {
+    background-color: #ffff00 !important;
+}
+
+/* Company Profile */
+#sig_details_org_profiles {
+    padding-top: 3px;
+}
+
+#sig_details_org_profiles table {
+    margin-bottom:0;
+    width: 100%;
+}
+
+#edit_company_props_container table tr td,
+#sig_details_org_profiles table tr td {
+    font-size: 13px;
+}
+
+#sig_details_org_profiles .sig_details_section_title {
+    text-transform: uppercase;
+}
+
+.sig_details_articles_title_section {
+    margin: 15px;
+}
+
+.sig_details_articles_title {
+    float: left;
+    margin-right: 15px;
+    color: #0971ce;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sig_details_selected_footprint_title {
+    float: left;
+    margin: 10px 15px 20px 15px;
+}
+
+.sig_details_footprint_article_title_container {
+    display: inline-block;
+    width: 100%;
+}
+
+.sig_details_footprint_article_title {
+    font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sig_details_footprint_article {
+    margin: 25px;
+}
+
+.sig_details_footprint_article_text_part .leadpara {
+    font-size: 14px;
+}
+
+.sig_details_footprint_article a.entity_item {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.sig_details_footprint_article_text_part {
+    /* text-indent: 10px; */
+    margin-bottom: 5px;
+}
+
+.sig_details_footprint_article_source {
+    font-size: smaller;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    color: #777;
+    display: inline-block;
+}
+
+.sig_details_footprint_article_source img {
+    margin-right: 10px;
+}
+
+.sig_details_footprint_article_source_metadata {
+    display: inline-block;
+}
+
+.loading {
+    background: url("../img/ajaxloader.gif") no-repeat center;
+}
+/* Company Profile End */
+
+.sig-details-executives-header {
+    height: 40px;
+}
+.nav-tabs.edit-executives {
+    margin-bottom: 4px;
+}
+.sig-details-tabs-people-types {
+  display: inline-block;
+  border-radius: 2px;
+  height: 28px;
+}
+.sig-details-executives-header.edit-executives {
+    margin-top: 76px;
+}
+.sig-details-tabs-people > li.active .arrow,
+.sig-details-tabs-people > li.active .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.sig-details-tabs-people > li.active .arrow {
+  border-width: 7px;
+  top: 50%;
+  right: -7px;
+  margin-top: -7px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, .25);
+}
+.sig-details-tabs-people > li.active .arrow:after {
+  content: "";
+  border-width: 7px;
+  right: 1px;
+  bottom: -7px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff;
+}
+.sig-details-tabs-people-types > li.active .arrow,
+.sig-details-tabs-people-types > li.active .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.sig-details-tabs-people-types > li.active .arrow {
+  border-width: 7px;
+  bottom: -7px;
+  left: 50%;
+  margin-left: -7px;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, .25);
+  border-bottom-width: 0;
+}
+.sig-details-tabs-people-types > li.active .arrow:after {
+  content: "";
+  border-width: 7px;
+  bottom: 1px;
+  margin-left: -7px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0;
+}
+.sig-details-tabs-people-types > li > a {
+  color: #353E42 !important;
+  border-radius: 0;
+  border: 1px solid #BDC2C7;
+  margin: 0;
+  background-color: #F5F5F5;
+  text-transform: uppercase;
+  line-height: 26px;
+  padding-top:0;
+  padding-bottom:0;
+  font-size: 13px;
+}
+.sig-details-tabs-people-types > li.active > a,
+.sig-details-tabs-people-types > li.active > a:hover,
+.sig-details-tabs-people-types > li.active > a:focus {
+  color: #0971CE !important;
+  background-color: #FFFFFF;
+  background-image: none;
+  border-color: #BDC2C7;
+  height: 28px;
+}
+.sig-details-tabs-people-types > li:first-child > a,
+.sig-details-tabs-people-types > li.active:first-child > a {
+  border-radius: 2px 0 0 2px;
+  border-right: none;
+}
+.sig-details-tabs-people-types > li:last-child > a {
+  border-radius: 0 2px 2px 0;
+}
+.sig-details-tabs-people-types > li:last-child > a,
+.sig-details-tabs-people-types > li.active:last-child > a {
+  border: 1px solid #BDC2C7;
+}
+.sig-details-tabs-people-types > li > a:hover {
+  color: #353E42 !important;
+  border-color: #BDC2C7;
+  background-color: #e4e4e4;
+}
+.error-summary.edit-executives {
+  margin: 0 0 20px 0;
+}
+
+.sig_details_footprint_redundant_actions_label {
+  float: left;
+  margin-right: 5px;
+}
+
+.sig_details_newsworthiness_newsworthy {
+  margin: 15px;
+}
+
+.sig_details_newsworthiness_newsworthy > label {
+  font-weight: bold;
+}
+
+.sig_details_footprint_keywords_header {
+  margin-bottom: 10px;
+}
+
+.sig_details_profile_section_title {
+    margin-bottom: 5px;
+    color: #0971ce;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    float: left !important;
+}
+
+tr.changed_company_snapshot_field td:first-child {
+    border-left-color: red;
+    border-left-width: 2px;
+}
+
+tr.headquarter_company_snapshot_fields,
+tr.headquarter_company_snapshot_fields td:nth-child(2) {
+    background-color: aliceblue;
+}
+
+tr.registered_company_snapshot_fields,
+tr.registered_company_snapshot_fields td:nth-child(2) {
+    background-color: cornsilk;
+}
+
+tr.headquarter_company_snapshot_fields.changed td:nth-child(2),
+tr.registered_company_snapshot_fields.changed td:nth-child(2) {
+    border-left-color: red;
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+
+#sig_details_footprint_article_modal .modal-content {
+  min-width: 960px;
+}
+
+#sig_details_footprint_article_modal .modal-dialog {
+  width: 960px;
+}
+
+.sig_details_footprint_article_container {
+  min-height: 640px;
+  max-height: 640px;
+  overflow: auto;
+}
+
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 0.8s
+}
+
+@keyframes animateleft {
+  from {
+      left: -300px;
+      opacity: 0
+  }
+
+  to {
+      left: 0;
+      opacity: 1
+  }
+}
+
+.w3-animate-right {
+  position: relative;
+  animation: animateright 0.8s
+}
+
+@keyframes animateright {
+  from {
+      right: -300px;
+      opacity: 0
+  }
+
+  to {
+      right: 0;
+      opacity: 1
+  }
+}
+
+/*
+  End of Styles specific to sigsignaldetails
+*/
+
+.navbar-fixed-top div.news-rank {
+    margin-bottom: 10px;
+}
+
+.navbar-fixed-top div.entity-id {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 14px;
+    font-weight: 500;
+}
+
+.navbar-fixed-top .fcode {
+    display: inline-block;
+    color: white;
+    background-color: #bdc2c7;
+    min-width: 60px;
+    text-align: center;
+    height: 28px;
+    margin: 10px;
+    vertical-align: text-bottom;
+    padding: 4px 10px;
+}
+
+.table-dmi-search td.zero-max-width,
+.table-dmi td.zero-max-width {
+    max-width: 0 !important;
+}
+
+/*
+  start of sym edit specific styles
+*/
+.sym_edit-company-table-container {
+  margin: 10px 0;
+}
+/*
+  end of of sym edit specific styles
+*/
+.table-dmi-search textarea.edit,
+.table-dmi textarea.edit {
+    min-height: 44px;
+    overflow:hidden;
+    resize: vertical;
+    width: 100%;
+    padding: 0;
+    background-color: beige;
+}
+
+i.web-crawl-tab {
+    margin-left: 3px;
+}
+
+.edit-table-label.green {
+    color: green;
+}
+.edit-table-label.red {
+    color: red;
+}
+.dmi-icon-success-unchanged {
+    background-position: -111px -155px;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+.dmi-icon-success-new {
+    background-position: -1px -89px;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+.dmi-icon-fail {
+    background-position: -1px -89px;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+
+.table.table-dmi.table-webcrawl > tbody > tr > td,
+.table.table-dmi.table-webcrawl-review > tbody > tr > td {
+    padding: 5px;
+}
+
+.table-dmi.table-webcrawl thead tr th:nth-of-type(1) ~ th {
+    text-align: left;
+    padding-left: 12px;
+}
+
+.table-dmi.table-webcrawl thead tr th:last-of-type {
+    padding: 0 0 0 5px !important;
+}
+
+.table-dmi.table-webcrawler-snapshot thead tr th {
+    text-align: left;
+    padding-left: 4px;
+}
+
+.table-dmi.table-webcrawl tbody .btn-group {
+  display: inline-block;
+}
+
+.table-dmi.table-webcrawl tbody tr.new-url td {
+  padding: 0;
+}
+
+.table-dmi.table-webcrawl tbody tr.new-url td:nth-of-type(3) ~ td i {
+    margin-left: 12px;
+}
+
+.table-dmi.table-webcrawl-review tbody tr.new-url td {
+    background-color: #e6ffe6;
+}
+
+.table-dmi.table-webcrawl-review tbody tr.undo-blacklist-url td {
+    background-color: #d7f9fb;
+}
+
+.table-dmi-search tbody tr.blacklisted td,
+.table-dmi.table-webcrawl tbody tr.blacklisted td,
+.table-dmi.table-webcrawl tbody td.blacklisted,
+.table-dmi.table-webcrawl-review tbody tr.blacklisted td,
+.table-dmi.table-webcrawl-review tbody td.blacklisted {
+  background-color: lightgrey;
+  text-decoration-line: line-through;
+}
+
+.table-dmi.table-webcrawl-review td:nth-of-type(2) ~ td {
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.table-dmi.table-webcrawl tbody tr.blacklisted td:nth-of-type(2) ~ td {
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.table-dmi.table-webcrawl tbody tr.blacklisted td:last-of-type {
+    padding: 5px !important;
+}
+
+.table-dmi.table-webcrawl tbody tr.blacklisted td:nth-of-type(2) ~ td i,
+.table-dmi.table-webcrawl-review tbody tr.blacklisted td:nth-of-type(2) ~ td i {
+    cursor: default;
+}
+
+.table-dmi.table-webcrawl tbody tr.blacklisted td:nth-of-type(2) ~ td i:first-child  {
+    margin-right: 12px;
+}
+
+.table-dmi.table-webcrawl tbody tr.blacklisted td .count  {
+    float: right !important;
+    font-weight: bold;
+    margin-top: -3px;
+    margin-right: 7px;
+    cursor: default;
+}
+
+.sym_edit-auto-suggest-alias-name {
+  width: 100%;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.table-dmi-search.search-results.table-webcrawl td:nth-of-type(2) ~ td i {
+    margin-top: 3px;
+}
+
+.sym_company_edit_profile_header {
+  margin-top: 0;
+}
+
+.sym_edit-profile-form-container {
+  padding-top: 20px;
+}
+
+.sym_company_region_code {
+  width: 40%;
+  margin: 0 0 0 5px;
+}
+
+.sym_company_region_code.primary {
+  float: left;
+  margin: 0 0 0 0;
+}
+
+.sym_company_edit-select {
+  height: 28px;
+}
+
+.sig_details_org_profiles table {
+  margin-bottom:0;
+  width: 100%;
+}
+
+table.sym_edit-local-names-table {
+  width: 30%;
+}
+
+.local-names-language-heading {
+  width: 35%;
+}
+
+.sym_edit-local-name-label {
+  width: 100%;
+}
+
+.sym_edit-language-name-label {
+  width: 100%;
+}
+
+.sym_edit-language-select {
+  width: 100%;
+}
+
+.table-symbology-profile {
+    margin-bottom: 16px !important;
+}
+
+.table-history tbody tr.history-group td {
+    background-color: white;
+}
+
+.table-history tbody tr.history-group td:first-child {
+    font-weight: bold;
+}
+
+.table-history tbody th.right,
+.table-history tbody td.right {
+    text-align: right;
+}
+
+.table-history tbody tr.history-detail {
+    display: none;
+}
+
+.table-history tbody tr.history-detail.error td:first-child {
+    border-left: solid 3px red;
+}
+
+.table-history tbody tr.add td {
+    background-color: #e6ffe6 !important;
+}
+
+.table-history tbody tr.del td {
+    background-color: #bdc2c7 !important;
+}
+
+.table-history tbody tr.rep td {
+    background-color: #ffe5c1 !important;
+}
+
+.table-history tbody td div.old {
+    color: grey;
+    display: inline-flex;
+}
+
+.table-history tbody td div.new {
+    color: black;
+    display: inline-flex;
+}
+
+div.history-error {
+    color: red;
+}
+
+div.add {
+    padding: 4px;
+    background-color: #e6ffe6;
+}
+div.del {
+    padding: 4px;
+    margin-right: -14px;
+    background-color: #bdc2c7;
+}
+div.rep {
+    padding: 4px;
+    background-color: #ffe5c1;
+}
+div.executive, div.board-member, div.registered, div.headquarter {
+    padding: 4px;
+}
+
+.table-webcrawl td div.people-count {
+  display: inline;
+  float: right;
+  cursor: pointer;
+  padding: 1px 5px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(top, #6969ff 0%,#0000ff 100%);
+  box-shadow: 0 1px 2px rgba(0,0,0,.5), 0 1px 4px rgba(0,0,0,.4), 0 0 1px rgba(0,0,0,.7) inset, 0 10px 0px rgba(255,255,255,.11) inset;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.6);
+}
+
+div.webcrawl-url {
+    word-break: break-word;
+}
+
+table.table thead .filter,
+table.table thead .filter_on {
+  cursor: pointer;
+}
+table.table thead .filter {
+  background-image: url('../img/filter_gray.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+table.table thead .filter_on {
+  background-image: url('../img/filter_black.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.sym_edit-alias-moved {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/dmi-icons.png");
+  background-repeat: no-repeat;
+  background-position: -155px -199px;
+  width: 16px;
+  height: 14px;
+  transform: scaleY(-1);
+  margin: 0 5px 0 5px;
+}
+
+tr.edited > th:first-child, tr.edited > td:first-child {
+  border-left: 3px solid red;
+  padding-left: 7px;
+}
+
+.symbology_profile_content {
+  min-height: 320px;
+}
+
+.dmi-icon-blacklisted,
+.dmi-icon-Blacklisted {
+    background-position: -155px -23px;
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+}
+
+.dmi-icon-whitelisted,
+.dmi-icon-Whitelisted {
+    background-image: url("../img/dmi-icons-green.png");
+    background-position: 0 -44px;
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+}
+
+.history-legend {
+    display: inline;
+}
+
+.sig_details_org_profiles tbody .clf i {
+  width: 18px;
+}
+
+.sig_details_org_profiles tbody .clf i {
+  background-position: -110px -88px;
+  width: 18px;
+  height: 18px;
+}
+
+.sig_details_org_profiles i {
+  display: inline-block;
+  line-height: 22px;
+  background-image: url(../img/dmi-icons.png);
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+
+.sig_details_org_profiles tbody .clf .btn {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  width: 28px;
+}
+
+.sig_details_org_profiles tbody td.deletable-input {
+  padding-right: 1px;
+}
+
+.sig_details_org_profiles tbody td.deletable-icon {
+  padding-left: 0;
+}
+
+.sig_details_org_profiles tbody td.deletable-icon i {
+  margin-top: 4px;
+}
+.dmi-icon-history-substitute {
+    background-image: url("../img/substitute.png");
+    width: 21px;
+    height: 21px;
+    margin: -2px 4px 0 4px;;
+}
+
+.sig_details_fcode_controls {
+  clear: left;
+  padding: 8px 0 15px 0;
+}
+
+.sig_details_fcode_label {
+  color: #FFFFFF;
+  border: 1px solid #d4dae2;
+  background-color: #d4dae2;
+  line-height: 28px;
+  margin-bottom: 6px;
+  height: 28px;
+  border-radius: 2px;
+  padding: 0 6px;
+}
+
+.sig_details_fcode_label.verified{
+  border: 1px solid #00b5b1 !important;
+  background-color: #00b5b1 !important;
+}
+.table-pending-updates .btn-group .btn {
+  border: none;
+  padding: 0;
+  width: 25px;
+  height: 26px;
+  margin: 0;
+  float: none;
+  line-height: 0;
+}
+.table-pending-updates tbody .btn-group {
+  display: block;
+  white-space: nowrap;
+  font-size: 0;
+}
+#sig_details_update_fcode_modal .table-dmi-search {
+  margin-bottom: 20px;
+}
+.search-type label {
+    font-weight: bold;
+    margin-right: 6px;
+}
+.search-type select {
+    display: inline-flex;
+    cursor:pointer;
+    border-radius:0 !important;
+    padding-right: 0;
+    padding-left:7px !important;
+    height:26px !important;
+}
+
+li.external-providers-toggle {
+    display: inline-flex;
+    margin-right: 0;
+}
+
+table.queries.query-controls-org-com,
+table.queries.query-controls-person,
+table.queries.query-controls-author {
+    margin-top: 30px;
+}
+
+table.queries.query-controls-org-com td,
+table.queries.query-controls-author td,
+table.queries.query-controls-person td {
+    padding-right: 12px;
+}
+
+table.queries.query-controls-org-com tbody tr,
+table.queries.query-controls-person tbody tr,
+table.queries.query-controls-author tbody tr {
+    vertical-align: top;
+}
+
+.switch-filters {
+    margin: 12px 0 12px 0;
+}
+
+.switch-filters .make-switch {
+    margin-right: 5px;
+}
+
+header.sig_page_header {
+    margin-bottom: 20px;
+}
+
+header.sig_page_header:not(.sig_details_page_header) h1 {
+    margin-top: -10px;
+}
+
+header.sig_page_header ul li input::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+header.sig_page_header ul li button.lookup {
+    margin: 0 !important;
+}
+
+header.sig_page_header ul li button.lookup i {
+    margin-top: -5px;
+}
+
+table.lookup-result tbody tr.About td,
+table.lookup-result tbody tr.аbout td {
+    background-color: #e6ffe6 !important
+}
+
+table.lookup-result tbody tr.Occur td,
+table.lookup-result tbody tr.occur td {
+    background-color: aliceblue !important
+}
+
+table.lookup-result tbody tr.Inactive td,
+table.lookup-result tbody tr.inactive td {
+    font-style: italic;
+}
+
+.tablecellLoading {
+  background-image: url('../img/ajaxloader.gif');
+  background-size: 16px 16px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.table-webcrawl-manage {
+    border-collapse: collapse;
+}
+
+.table-webcrawl-manage tbody tr td {
+    background-color: transparent;
+    padding: 4px;
+}
+
+.table-webcrawl-manage tbody tr.provider.editorial td {
+    background-color: beige;
+}
+
+.table-webcrawl-manage tbody tr.provider:not(.editorial) td:first-child {
+    border-width: 0 1px 0 1px;
+}
+
+.table-webcrawl-manage tbody tr.provider td.editorial {
+    padding: 0;
+}
+
+.table-webcrawl-manage tbody tr.provider td.editorial input.domain {
+    height: 34px;
+}
+
+.table-webcrawl-manage td span.accent,
+.table-dmi td .edit-table-label span.accent {
+    font-weight: bold;
+}
+
+.table-webcrawl-manage td div.note,
+.table-dmi td .edit-table-label div.note {
+    font-style: italic;
+}
+
+.modal.modalLookup h2 span.search-term {
+    color: black;
+    text-transform: none;
+    margin-left: 4px;
+}
+
+.alert h4 span.search-term {
+    text-transform: none;
+    margin-left: 4px;
+}
+
+.modal.modalLookup span.total-records {
+    color: black;
+    font-weight: bold;
+}
+
+.modal.modalLookup span.total-records.red {
+    color: red;
+    cursor: pointer;
+}
+
+select#corporateEventType {
+    margin: 0 0 0 5px;
+}
+
+select#corporateEventType.italic {
+    font-style: italic;
+}
+
+select#corporateEventType option:first-child {
+    font-style: italic;
+}
+
+select#corporateEventType option:nth-child(n+2) {
+    font-style: normal;
+}
+
+.dmi-flag-editorial,
+.dmi-flag-dmirc,
+.dmi-flag-djpm,
+.dmi-flag-djpc,
+.dmi-flag-webcrawl,
+.dmi-flag-sec,
+.dmi-flag-symbology,
+.dmi-flag-update,
+.dmi-flag-update-add,
+.dmi-flag-update-rep,
+.dmi-flag-update-del {
+    font-weight: bold;
+}
+
+.dmi-flag-editorial {
+    /*light green*/
+    background-color: #00CA1F;
+}
+.dmi-flag-dmirc,
+.dmi-flag-djpm,
+.dmi-flag-djpc {
+    /*green*/
+    background-color: #00980A;
+}
+.dmi-flag-webcrawl,
+.dmi-flag-sec,
+.dmi-flag-news,
+.dmi-flag-symbology {
+    /*blue*/
+    background-color: #3B78AD;
+}
+.dmi-flag-update,
+.dmi-flag-update-add,
+.dmi-flag-update-rep {
+    /*yellow to orange*/
+    background-color: #EBBC0B;
+}
+.dmi-flag-update-del {
+    /*red*/
+    background-color: #DE0000;
+}
+
+/*
+company lookup buttons in the header
+*/
+.sig_page_header .btn-group-search-operators {
+    margin: -9px 0 0 0;
+}
+
+.sig_page_header .btn-group-search-operators .btn {
+    background-color: #BDC2C7;
+    border: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    float: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px !important;
+    margin-left: -3px !important;
+    padding: 6px 0 0 0 !important;
+    text-transform: initial;
+    width: 38px;
+}
+.sig_page_header .btn-group-search-operators .btn:hover {
+  background-color: #7b8388;
+}
+.sig_page_header .btn-group-search-operators .btn.active {
+  background-color: #0971CE;
+}
+
+table#executives_table > tbody > tr > td:first-child > i,
+table#boardMembers_table > tbody > tr > td:first-child > i,
+table#sig_company_edit.table.table-dmi > tbody > tr > td:first-child > i {
+    margin-top: 4px;
+}
+
+table#executives_table tbody tr:not(.sig_details_executive_row_in_edit).editorial td,
+table#boardMembers_table tbody tr:not(.sig_details_executive_row_in_edit).editorial td,
+table#sig_company_edit.table.table-dmi tbody tr:not(.sig_company_row_in_edit).editorial td {
+    background-color: #A0D5A0 !important;
+}
+
+tr.primary-domain-provider-row.provider.editorial.deletion-rejected td,
+tr.primary-domain-provider-row.provider.update-approved td,
+table.table.table-dmi tbody tr.primary.deletion-rejected td,
+table.table.table-dmi tbody tr.bio-row.deletion-rejected td,
+div.executive.deletion-rejected,
+table.table.table-dmi tbody tr.primary.update-approved td,
+table.table.table-dmi tbody tr.bio-row.update-approved td,
+div.executive.update-approved,
+table#executives_table tbody tr.external-provider.deletion-rejected td,
+table#boardMembers_table tbody tr.external-provider.deletion-rejected td,
+table#executives_table tbody tr.external-provider.update-approved td,
+table#boardMembers_table tbody tr.external-provider.update-approved td,
+table.table.table-dmi tbody tr.changed_company_snapshot_field.deletion-rejected td,
+table#sig_company_edit.table.table-dmi tbody tr.deletion-rejected td,
+table#sig_company_edit.table.table-dmi tbody tr.approved.update td {
+    background-color: #D3F6D3 !important;
+}
+
+tr.primary-domain-provider-row.provider.editorial.deletion-approved td,
+tr.primary-domain-provider-row.provider.update-rejected td,
+table.table.table-dmi tbody tr.primary.deletion-approved td,
+table.table.table-dmi tbody tr.bio-row.deletion-approved td,
+div.executive.deletion-approved,
+table.table.table-dmi tbody tr.primary.update-rejected td,
+table.table.table-dmi tbody tr.bio-row.update-rejected td,
+div.executive.update-rejected,
+table#executives_table tbody tr.external-provider.deletion-approved td,
+table#boardMembers_table tbody tr.external-provider.deletion-approved td,
+table#executives_table tbody tr.external-provider.update-rejected td,
+table#boardMembers_table tbody tr.external-provider.update-rejected td,
+table.table.table-dmi tbody tr.changed_company_snapshot_field.deletion-approved td,
+table.table.table-dmi tbody tr.changed_company_snapshot_field.rejected td,
+table#sig_company_edit.table.table-dmi tbody tr.deletion-approved td,
+table#sig_company_edit.table.table-dmi tbody tr.rejected.update td {
+    background-color: #F1D1CB !important;
+}
+
+tr.primary-domain-provider-row.provider.editorial.deletion-approved td:nth-of-type(1) ~ td,
+tr.primary-domain-provider-row.provider.update-rejected td:nth-of-type(1) ~ td,
+table.table.table-dmi tbody tr.primary.update-rejected td:nth-of-type(2) ~ td,
+table.table.table-dmi tbody tr.bio-row.update-rejected td,
+div.executive.update-rejected,
+table#executives_table tbody tr.external-provider.deletion-approved td:nth-of-type(2) ~ td,
+table#boardMembers_table tbody tr.external-provider.deletion-approved td:nth-of-type(2) ~ td,
+table#executives_table tbody tr.external-provider.update-rejected td:nth-of-type(2) ~ td,
+table#boardMembers_table tbody tr.external-provider.update-rejected td:nth-of-type(2) ~ td,
+table.table.table-dmi tbody tr.changed_company_snapshot_field.deletion-approved td:nth-of-type(2) ~ td,
+table#sig_company_edit.table.table-dmi tbody tr.deletion-approved td:nth-of-type(2) ~ td {
+    text-decoration: line-through;
+}
+
+div.executive.deletion-approved i,
+div.executive.deletion-rejected i,
+div.executive.update-approved i,
+div.executive.update-rejected i {
+    margin: 0 6px 0 12px;
+}
+
+table#executives_table tbody tr td input[type="text"],
+table#boardMembers_table tbody tr td input[type="text"],
+table#sig_company_edit.table.table-dmi tbody tr td input[type="text"] {
+    background-color: beige;
+}
+
+.sig-icon {
+    display: inline-block;
+}
+
+.sig-icon-exclamation-triangle.sig-icon-del {
+    background-image: url("../img/dd_icons_sprite.png");
+    background-position: -8px -8px;
+    width: 16px;
+    height: 14px;
+}

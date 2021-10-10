@@ -1,0 +1,587 @@
+/********************************************/
+/* Shared
+/********************************************/
+
+.ellipsis-elem {
+  color: #0971CE;
+  cursor: pointer;
+}
+
+th.qm-actions ul, td.qm-actions ul {
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+
+th.qm-header, td.qm-header {
+  width: 169px;
+  max-width: 169px;
+  min-width: 169px;
+}
+th.qm-actions.dashboard, th.qd-actions.dashboard {
+  width: 120px;
+  max-width: 120px;
+  min-width: 120px;
+}
+th.qm-actions.question-library, td.qm-actions.question-library {
+  width: 90px;
+  max-width: 90px;
+  min-width: 90px;
+}
+th.qm-actions.recommendation-library, td.qm-actions.recommendation-library {
+  width: 60px;
+  max-width: 60px;
+  min-width: 60px;
+}
+
+
+td.questionnaire.column, td.questionnaire.name {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* these are for older browsers */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+td.questionnaire.related.column {
+  min-width: 300px;
+}
+
+td.questionnaire.text.column {
+  min-width: 500px;
+}
+
+td.questionnaire.name {
+  min-width: 280px;
+  max-width: 400px;
+}
+
+.qm-paged-results {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.qm-paged-results .limit {
+  font-weight: normal;
+  background-color: #0971CE;
+  color: white;
+  max-width: 4em !important;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+.qm-paged-results .limit:focus {
+  background-color: #085EAC !important;
+}
+
+.qm-paged-results .limit option:checked {
+  background-color: #085EAC;
+}
+
+.qm-paged-results .limit option:not(:checked) {
+  background-color: #0971CE;
+}
+
+.qm-paged-results .pagination {
+  font-weight: normal;
+  margin: 0
+}
+
+.qm-paged-results .display-more {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: text-bottom;
+  min-width: 50%
+}
+
+.qm-paged-results .page-pagination, .qm-paged-results .questionnaire-pagination {
+  display: inline-block
+}
+
+.qm-paged-results .results-count {
+  vertical-align: text-bottom;
+}
+
+#qm_recommendation_library > *, #qm-question-library > * {
+  line-height: 1.5em !important;
+}
+
+#qm_recommendation_library th, #qm-question-library th {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#qm_recommendation_library th:first-child, #qm-question-library th:first-child {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#qm_recommendation_library table tr td, #qm-question-library table tr td {
+  padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
+  .display-more {
+    text-align: left !important
+  }
+}
+
+.ellipsis-elem {
+  position: relative;
+  display: inline-block;
+}
+
+.ellipsis-elem-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  width: 200px;
+  margin-left: -190px;
+  max-height: 300px;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  z-index: 999;
+}
+
+.ellipsis-elem-content a {
+  font-size: 10px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.ellipsis-elem-content a:hover {
+  background-color: #f1f1f1
+}
+
+.ellipsis-elem:hover .ellipsis-elem-content {
+  display: block;
+}
+
+
+/********************************************/
+/* Dashboard                                */
+/********************************************/
+
+.questionnaire-wrapper {
+  margin-top: 5px
+}
+
+.questionnaire-wrapper .link-questionnaire-name:hover {
+  text-decoration: none
+}
+
+#qm-filters-wrapper {
+  width: 50%;
+}
+
+#qm-filters-wrapper .fc-border {
+  border: solid 1px #ccc;
+}
+
+#qm-filters-wrapper form.filter-options {
+  margin: 20px 0px 0px 0px;
+}
+
+#qm-filters-wrapper form.filter-options .form-group  {
+  padding: 0 16px;
+}
+
+#qm-filters-wrapper form.filter-options .form-actions  {
+  background-color: #FAFAFA;
+  border-top: 1px solid #d5d5d5;
+  padding: 10px 16px;
+}
+
+#qm-filters-wrapper .toLabel {
+  text-align: right;
+}
+
+.badge.badge-yellow{color: #fff;padding: 0 5px 0 4px;background: #f0ad4e;font-weight: bold !important;overflow: inherit!important;}
+
+
+/********************************************/
+/* Recommendations Library                  */
+/********************************************/
+
+
+/********************************************/
+/* Questions Library                        */
+/********************************************/
+
+.comma-delimited {
+  font-size: 12px;
+}
+
+.comma-delimited input {
+  margin-right: 3px;
+}
+
+/********************************************/
+/* Details Page                             */
+/********************************************/
+
+#qmQuestionnaireDetails input[type=number] {
+  text-align: right;
+  padding: 0 3px;
+}
+
+#qm-questionnaire-details-collapse .table-dmi-search td {
+  height: 37px;
+  vertical-align: middle;
+}
+
+.questionnaire-module-wrapper .truncated-tooltip {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.questionnaire-module-wrapper .btn.btn-sm .glyphicon {
+  top: 2px;
+  margin-left: 2px;
+}
+
+.questionnaire-module-wrapper .text-capitalize {
+  text-transform: capitalize;
+}
+
+.questionnaire-module-wrapper.qm-questionnaire-wrapper .questionnaire-details-wrapper,
+.questionnaire-module-wrapper.qm-questionnaire-wrapper .questionnaire-recommendations-wrapper,
+.questionnaire-module-wrapper.qm-questionnaire-wrapper .questionnaire-questions-wrapper {
+  font-size: 13px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0px 1px 1px 0 rgba(0, 0, 0, 0.12) !important;
+  border-radius: 2px;
+  margin: 0 0 16px 0;
+}
+
+ #questionnaire-recommendations-list .recommendationComparison {
+   width: 180px;
+ }
+
+ #questionnaire-recommendations-list .recommendationRiskFlag {
+   width: 105px;
+ }
+
+
+/********************************************/
+/* Questions Custom Table                   */
+/********************************************/
+
+.qm-section-header {
+  margin-bottom: 10px;
+}
+
+.sortable-div {
+  position: inherit;
+}
+
+.table-questions {
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 4px;
+}
+
+.table-questions > tbody > tr > td {
+  text-align: left;
+  font-weight: normal;
+  white-space: nowrap;
+  line-height: 28px;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-top: none;
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  background-color: #e4e9ef;
+}
+
+.table-questions > tbody > tr > td > div input {
+  display: inline-block;
+  width: 50px;
+}
+
+.table-questions > tbody > tr > td > div input + button {
+  margin-top: -4px;
+}
+
+.table-questions > tbody > tr:first-child > td {
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #dadada;
+}
+
+.table-questions > tbody > tr:last-child > td {
+  border-radius: 0 0 4px 4px;
+}
+
+.table-questions > tbody > tr:hover > td {
+  background-color: #e6f1fa;
+}
+
+.table-questions > tbody > tr > td > div.question-detail {
+  border-radius: 4px;
+  padding: 10px;
+  background: #fff;
+}
+
+.table-questions > tbody > tr > td div.question-section {
+  border-bottom: solid 1px #dadada;
+  padding-top: 10px;
+}
+
+.table-questions > tbody > tr > td div.question-section:last-child {
+  border: none;
+}
+
+.score-controls label {
+  margin: 0 5px 0 10px;
+}
+
+/* borderless table */
+.table.table-borderless td, .table.table-borderless th {
+  border: 0 !important;
+}
+
+.table.table-borderless {
+  margin-bottom: 0px;
+}
+
+.table-questions > tbody > tr > td table td{
+  vertical-align: top;
+}
+
+.table-questions > tbody > tr > td table td .qm-icons{
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.table-questions > tbody > tr > td table .question-text {
+  white-space: normal;
+  word-break: break-all;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.table-questions > tbody > tr > td table .question-weight input {
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+}
+
+#questionnaire-recommendations-list input[type=number] {
+  display: inline-block;
+  width: 50px;
+}
+
+#questionnaire-questions .answer-option {
+  padding-bottom: 10px;
+}
+
+#questionnaire-questions .answer-option span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  max-width: 310px;
+  padding-right: 5px;
+}
+
+#answerOptionsCommaList textarea{
+  padding: 4px 0 0 7px;
+  font-size: 13px;
+}
+
+
+/********************************************/
+/* Scroll To Top <a> tag button             */
+/********************************************/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease 0s;
+  background-color: #eec15b;
+  color: rgb(16, 182, 219);
+}
+
+.cd-top:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff transparent transparent #fff;
+  left: calc(50% - 5px);
+  top: calc(50% - 2px);
+}
+
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/********************************************/
+/* Remove spinners on input type number     */
+/********************************************/
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/********************************************/
+/* Modals                                   */
+/********************************************/
+
+#reusable-modal {
+  width: auto;
+}
+
+#reusable-modal .modal-content {
+  margin: auto;
+}
+
+#reusable-modal .modal-small {
+  width: 600px;
+}
+
+#reusable-modal .modal-medium {
+  width: 800px;
+}
+
+#reusable-modal .modal-large {
+  width: 1000px;
+}
+
+#reusable-modal .modal-footer {
+  background-color: #F5F5F5;
+}
+
+#reusable-modal .disabled label {
+  cursor: not-allowed;
+  color: #d4dae2;
+}
+
+#create-question .answer-option {
+  width: 525px;
+}
+
+#create-question .answer-margin {
+  margin-right: 3px;
+}
+
+
+/********************************************/
+/* qm-icons                                 */
+/********************************************/
+
+.qm-icons {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.qm-icons:hover {
+  opacity: .6;
+}
+
+.qm-button {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.qm-icons.ic-expand {
+  background-image: url("../img/dd_icons_sprite.png");
+  background-position: -174px -4px;
+}
+
+.qm-icons.ic-collapse {
+  background-image: url("../img/dd_icons_sprite.png");
+  background-position: -195px -4px;
+}
+
+.qm-icons.remove {
+  background-image: url("../img/dmi-icons.png");
+  background-position: -149px -19px;
+}
+
+.qm-icons.drag {
+  background-image: url("../img/dmi-icons.png");
+  background-position: -198px -219px;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.qm-icons.drag.negative-margin {
+  margin-bottom: -5px;
+}
+
+ /* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.qm-icons.drag:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.qm-icons.edit {
+  background-image: url("../img/dmi-icons.png");
+  background-position: -17px -41px;
+}
+
+.recommendation-action {
+  background-image: url("../img/dmi-icons.png");
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  background-repeat: no-repeat;
+}
+
+.recommendation-action:hover {
+  opacity: .6;
+}
+
+.recommendation-action.add {
+  background-position: -86px -22px;
+}
+
+.recommendation-action.add-more {
+  background-position: -242px -176px;
+}
+
+.recommendation-action.remove {
+  background-position: -152px -23px;
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "dmi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "mustache-loader": "^1.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development"
+  }
+}
